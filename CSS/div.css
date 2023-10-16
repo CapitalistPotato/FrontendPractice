@@ -1,0 +1,38 @@
+/*Margin is outside of a box, it controls spacing between different elements. 
+And padding is the spacing inside the box.*/
+/*block elements*/
+div{
+    border: 5px blue solid;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.box1{
+    border-color: orange;
+    background-color: #ffcc00;
+    width: 25%; /*uUsually better to go for percentages with width*/
+}
+.box2{
+    width: 20rem;
+}
+.box2 p{
+    margin-top: 0;
+    border: 2px solid green;
+}
+.box2 h1{
+    margin-bottom: 0;
+    margin: 0;
+}
+/*inline elements*/
+a, strong, em{
+    border: 2px solid blue;
+}
+.box3{
+    height: 8.7rem; /* height is usually bad, you may have to use it to see a background image
+    but otherwise avoid doing it.*/
+    width: 10rem;
+    background-image: url(https://placekitten.com/200/139);
+}
+
+/*rem is font size, em for unit size, rem is usually better.*/

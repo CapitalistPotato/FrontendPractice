@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*nav is a section with navigation links.*/
+  nav{
+    border: 0px solid red;
+  }
+  /*We are currently working on unordered list navigation links.*/
+  nav ul{
+    list-style-type: none;
+    border: 0px dotted blue;
+    padding: 0;
+    margin: 0;
+  }
+  /*List elements*/
+  nav li{
+    border: 3px solid yellow;
+    width: 10rem;
+    background-color:black;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    /* made it horizontal with the command below!!*/
+    display: inline-block;
+  }
+  
+  /*Links themselves*/
+  nav a{
+    border: 3px dotted white;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    /*display block makes it a block level element, making the element extend over to the entire block it is within. When you are trying to do this, move the padding into the element instead of the block it is within.*/
+    display: block;
+    padding: 0.5rem;
+    }
+  /*hover state for navigation links. Not all links are meant to be in navigation links, nav element mostly represents sections that consist of major navigation blocks.*/
+  nav a:hover{
+    background-color: white;
+    color: red;
+  }
+  
+  
+
+  /*HTML code of this CSS
+  <nav>
+  <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+  </ul>
+</nav>*/

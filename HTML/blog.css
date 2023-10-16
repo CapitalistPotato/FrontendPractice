@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    background-color: pink;
+    background-image: url(images/cool-background.png);
+    background-repeat: no-repeat;
+    background-size: 3000px 3000px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.textcenter{
+    width: 50%;
+    margin: auto;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float:right;
+}
+
+.floatright::after,
+.floatleft::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    border: 10px solid rgb(49, 1, 82);
+    margin: 0;
+}
+
+h1{
+   border: 5px solid white;
+   border-radius: 250px 250px 250px 250px;
+   color: white;
+   background-color: black;
+   text-align: center;
+   margin: auto;
+   width: 20%;
+   margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 3rem;
+    border-radius: 250px 250px 250px 250px;
+    width: 30%;
+    margin: auto;
+    background: linear-gradient(135deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: white;
+    font-weight: lighter;
+    color: black;
+}

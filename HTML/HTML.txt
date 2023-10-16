@@ -1,0 +1,2 @@
+! + tab sayfanın iskeletini oluşturuyor
+Use image resizer for resizing images

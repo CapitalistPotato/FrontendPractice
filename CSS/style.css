@@ -1,0 +1,85 @@
+/* my first css */
+
+/* changing font to ariel */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background color */
+    background-color: #ffffcc;
+}
+  /* image border */
+img{
+    border: 10px solid green;
+}
+  /* header border, px for the width, dotted or solid for its shape, color name */
+h1{
+    border: 5px dashed pink; 
+    color: white;
+    background-color: black;
+    text-align: center;
+    }
+/* playing around with fonts on blockquote */
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+cite{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+/* Classes, they start with a dot */
+.bigbold {
+font-weight: bold;
+font-size: 1.3rem;
+}
+
+h2{
+    border: 5px solid blue;
+    background-color: black;
+    color: white;
+}
+ol{
+    border: 3px dotted blue;
+    background-color: white;
+    color: black;
+}
+.colorred{
+    color: red;
+}
+.colorblue{
+    color: blue;
+}
+/*a is link, a visited is visited link, a hover is when you hover over the link, a.harvard:link is a link class, and its working on the default state of a link.*/
+/*ul a is descendant selector. ul for unordered list, ul a for unordered list links.*/
+
+/*Lord Vader Former Handle Anakin - 
+Link, Visited, Focus, Hover, 
+Active for pseudoclasses. 
+This exact order, can leave some 
+out if you'd like, but order is 
+important*/
+
+ul a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: lightblue;
+}
+ul a:visited{
+    color: green;
+    font-size: 3rem;
+    font-weight: normal;
+}
+ul a:hover{
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+    }
+a.harvard:link{
+    color: maroon;
+    }
+
+h2,h3,.bigbold, a:link{
+    color: orange;
+}
